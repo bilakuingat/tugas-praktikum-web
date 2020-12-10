@@ -1,0 +1,243 @@
+* {
+	/*format semua tulisan*/
+	margin: 0;
+	padding: 0;
+	font-family: 'Century gothic';
+}
+.logo {
+    /*format warna kuning bg atas*/
+	width: 100%;
+	height: 100%;
+	background-color: #f7e69a;
+}
+.logo1 {
+    /*format tulisan judul*/
+	width: 500px;
+	height: 100px;
+	margin: 0 auto;
+	color: black;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 5px;
+}
+.body {
+    /*pengaturan bg kuning*/
+	width: 100%;
+	height: 567px;
+	background-color: #f7e69a;
+}
+.body1 {
+    /*mengatur bg putih dalam bg biru*/
+	width: 1000px;
+	height: 500px;
+	background-color: white;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+.navbar {
+    /*mengatur navbar*/
+	width: 90%;
+	box-sizing: border-box;
+	margin: 0 auto; 
+	line-height: 100px;
+	overflow: hidden;
+}
+.menu a {
+    /*mengatur tata letak navbar*/
+	text-decoration: none;
+	color: #0c3b55;
+	margin-left:5px;
+	padding: 20px 45px;
+	line-height: 50px;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+.menu a:hover {
+    /*kotak biru*/
+	background-color: #a4d8f5;
+}
+.body2 {
+	/*mengatur letak gambar atas dan tulisan siap*/
+    width: 1000px;
+    height: 600px;
+    position: relative;
+}
+.gambar1 {
+    /*gambar*/
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: -20px;
+    left:200px;
+    background-image: url(siap.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text {
+    /*mengatur tulisan bawah gambar*/
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top:250px;
+    left:250px;
+    box-sizing: border-box;
+    color: #0c3b55;
+}
+.bawah {
+    /*mengatur bg biru*/
+	width: 100%;
+	height: 400px;
+	background-color: #E3EEF4;
+	overflow: hidden;
+}
+.gambara {
+	/*mengatur bg putih*/
+	width: 100%;
+	height: 400px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.bag45b {
+	/*menatur bg gambar belajar*/
+	width: 45%;
+	height: 400px;
+	float: right;
+	background-image: url(dimanapun.png);
+	background-position-x: -20px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.bag55b {
+	/*menatur tuliasn dan gambar*/
+	width: 50%;
+	height: 400px;
+	float: right;
+}
+.bag55b h2 {
+	/*mengatur tulisan belajar dimanapun*/
+	margin-top: 150px; 
+	font-size: 30px;
+}
+.bag55b p {
+	/*mengatur keterangan belajar dimanapun*/
+	margin-top: 50px;
+	margin-right: 60px;
+	font-size: 18px;
+}
+.gambard {
+    /*latar bg temukan biru*/
+	width: 1348px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 100px;
+	background-color: white;
+}
+.gambard h1 {
+    /*mengatur tulisan center*/
+	text-align: center;
+}
+.kotak1 {
+	width: 25%;
+	height: 400px;
+	background-color: rgb(157, 186, 224);
+	float: left;
+	margin-left: 110px;
+	margin-top: 50px;
+	border-radius: 10px;
+}
+.g1 {
+    /*mengatur kotak materi*/
+	width: 90%;
+	height: 150px;
+	background-image: url(undraw_learning_2q1h.png);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.kotak1 h1 {
+    /*mengatur tulisan materi*/
+	margin-top: 20px;
+	font-size: 20px;
+	color: #1B6678;
+}
+.kotak1 p {
+    /*mengatur keterangan materi*/
+	margin-top: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: center;
+	font-family: arial;
+	font-size: 18px;
+	color: #000000;
+}
+.kotak2 {
+    /*mengatur kotak 2*/
+	width: 25%;
+	height: 400px;
+	background-color: rgb(157, 186, 224);
+	float: left;
+	margin-left: 40px;
+	margin-top: 50px;
+	border-radius: 10px;
+}
+.g2 {
+    /*mrngatur letak dan gambar*/
+	width: 90%;
+	height: 150px;
+	background-image: url(undraw_quiz_nlyh.png);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.kotak2 h1 {
+	/*mengatur tulisan latihan*/
+	margin-top: 20px;
+	font-size: 20px;
+	color: #1B6678;
+}
+.kotak2 p {
+	/*mengatur keterangan latihan*/
+	margin-top: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: center;
+	font-family: arial;
+	font-size: 18px;
+	color: #000000;
+}
+.kotak3 {
+	/*mengatur kotak 3 (soal)*/
+	width: 25%;
+	height: 400px;
+	background-color: rgb(157, 186, 224);
+	float: right;
+	margin-right: 110px;
+	margin-top: 50px;
+	border-radius: 10px;
+}
+.g3 {
+	/*mengatur letak kotak dan gambar*/
+	width: 90%;
+	height: 150px;
+	background-image: url(undraw_Questions_re_1fy7.png);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.kotak3 h1 {
+	/*merubah tulisan soal*/
+	margin-top: 20px;
+	font-size: 20px;
+	color: #1B6678;
+}
+.kotak3 p {
+	/*mengatur keterangan soal*/
+	margin-top: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: center;
+	font-family: arial;
+	font-size: 18px;
+	color: #000000;
+}

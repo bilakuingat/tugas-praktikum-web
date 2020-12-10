@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+	width: 100%;
+	height: 667px;
+
+}
+
+.logoAsli {
+	width: 90px;
+	height: 40px;
+	margin: 0 auto;
+	color: black;
+	text-align: center;
+}
+
+.bag35 {
+	width: 35%;
+	height: 700px;
+	background-color: #f7e69a;
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	float: right;
+}
+
+.gambar {
+	width: 60%;
+	height: 700px;
+	background-image: url(daftar.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	float: left;
+}
+.login{
+	position: fixed;
+	top: 0;
+	right: 0;
+	box-sizing: border-box;
+	padding: 40px;
+	width: 500px;
+	height: 722px;
+}
+input[type="text"]{
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	margin-top: 60px;
+	margin-left: 39px;
+	padding: 4px;
+	width: 270px;
+	height: 32px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	transition: 0.2% ease;
+}
+input[type="password"]{
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	margin-left: 39px;
+	padding: 4px;
+	width: 270px;
+	height: 32px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-weight: 400;
+	font-size: 15px;
+	transition: 0.2% ease;
+}
+input[type="submit"]{
+	margin-bottom: 28px;
+	width: 270px;
+	height: 32px;
+	background: #1e90ff;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	margin-left: 39px;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: 0,2px ease;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus{
+	background: #00bfff;
+	transition: 0.2s ease;
+}
+p {
+	margin-left: 40px;
+}

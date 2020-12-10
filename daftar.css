@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'sans-serif';
+	box-sizing: border-box;
+}
+
+.logo {
+/*Mengatur tulisan "Dengan Menggunakan Email Anda*/
+    width: auto;
+    height: auto;
+}
+
+.bgLogo {
+/*Mengatur Kelompok Tulisan Bagian Daftar*/
+	width: 100%;
+	height: 250px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.bag65 {
+/*Mengatur background*/
+	width: 60%;
+	height: 700px;
+	background-image: url(daftar.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	float: left;
+}
+
+.register{
+/*Mengatur Tabel Registrasi*/
+	display: block;
+	position: fixed;
+	top: 0;
+	right: 0;
+    box-sizing: border-box;
+    background-color: #f7e69a;
+	padding: 40px;
+	width: 500px;
+    height: 722px;
+}
+
+input[type="text"]{
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 39px;
+	padding: 4px;
+	width: 270px;
+	height: 32px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-weight: 400;
+	font-size: 15px;
+	transition: 0.2% ease;
+}
+
+input[type="Email"]{
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 39px;
+	padding: 4px;
+	width: 270px;
+	height: 32px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-weight: 400;
+	font-size: 15px;
+	transition: 0.2% ease;
+}
+input[type="password"]{
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 39px;
+	padding: 4px;
+	width: 270px;
+	height: 32px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #aaa;
+	font-weight: 400;
+	font-size: 15px;
+	transition: 0.2% ease;
+}
+
+input[type="submit"]{
+	margin-bottom: 20px;
+	width: 270px;
+	height: 32px;
+	background: #1e90ff;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	margin-top: 10px;
+	margin-left: 39px;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: 0,2px ease;
+	cursor: pointer;
+}
